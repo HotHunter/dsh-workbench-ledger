@@ -1,0 +1,44 @@
+{
+  "name": "dsh-workbench-ledger",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "文档台账：把工作区里的文档按业务分类成一页，点文件名用系统默认程序打开，或定位到所在文件夹。",
+  "author": "HotHunter",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": ["dsh", "dsh-plugin", "documents", "file-browser"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HotHunter/dsh-workbench-ledger.git"
+  },
+  "homepage": "https://github.com/HotHunter/dsh-workbench-ledger#readme",
+  "bugs": {
+    "url": "https://github.com/HotHunter/dsh-workbench-ledger/issues"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}

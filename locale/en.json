@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Document Ledger",
+    "description": "Browse a workspace's documents grouped by business category: click a file name to open it with the system default app, or reveal it in the file manager. The classification can be written by the workspace agent. Read-only for user documents."
+  }
+}

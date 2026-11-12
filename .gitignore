@@ -1,0 +1,14 @@
+# 依赖与安装产物
+node_modules/
+.pnpm-store/
+
+# 打包产物
+*.tgz
+*.zip
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

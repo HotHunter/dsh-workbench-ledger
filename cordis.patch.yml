@@ -1,0 +1,4 @@
+- insert:
+    - id: doc-ledger
+      name: 'dsh-workbench-ledger'
+      config: {}

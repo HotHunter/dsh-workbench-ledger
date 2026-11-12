@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="文档台账">
+  <defs>
+    <linearGradient id="ledger-bar" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B2A5B"/>
+      <stop offset="1" stop-color="#1E6FE0"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#ledger-bar)"/>
+  <path d="M13 22.5c0-2.2 1.8-4 4-4h8.6l5 5.4h17.4c2.2 0 4 1.8 4 4v18.6c0 2.2-1.8 4-4 4H17c-2.2 0-4-1.8-4-4z" fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round"/>
+  <path d="M22 36.5h20M22 43h13" stroke="#F2A65A" stroke-width="3.2" stroke-linecap="round"/>
+</svg>
