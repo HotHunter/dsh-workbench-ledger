@@ -1,5 +1,8 @@
 # 文档台账 · dsh-workbench-ledger
 
+[![npm version](https://img.shields.io/npm/v/dsh-workbench-ledger.svg)](https://www.npmjs.com/package/dsh-workbench-ledger)
+[![license](https://img.shields.io/npm/l/dsh-workbench-ledger.svg)](LICENSE)
+
 把工作区里的文档按"业务分类"组织成一页。点文件名用系统默认程序打开，右侧按钮在文件管理器里定位。
 
 > DSH（DeepSeek Harness）插件：一个侧栏页脚按钮 + 一个 agent 工具（`doc_ledger`）+ 一个可由 agent 维护的
@@ -7,13 +10,20 @@
 
 ## 安装
 
-三种方式都行（`plugin_manager` → `install_bundle`）：
+在 DSH 里打开 `plugin_manager`，执行 `install_bundle`，`target` 填下面任一形式：
 
 | 来源 | `target` 填什么 |
 |---|---|
-| npm | `dsh-workbench-ledger@1.0.0` |
+| **npm（推荐）** | `dsh-workbench-ledger@1.0.0` —— 也可以只写 `dsh-workbench-ledger` 取最新版 |
 | 本地 tgz | `dsh-workbench-ledger-1.0.0.tgz` 的绝对路径 |
-| 源码目录 | 本目录的绝对路径 |
+| 源码目录 | 本仓库目录的绝对路径（改代码时用） |
+
+命令行的等价操作：
+
+```bash
+npm view dsh-workbench-ledger          # 看版本与包内容
+npm pack dsh-workbench-ledger@1.0.0    # 想先拿到 tgz 再离线安装
+```
 
 装好后左侧栏最底部（DS Bot 按钮旁边）出现「文档台账」。
 
